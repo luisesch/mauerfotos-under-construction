@@ -6,22 +6,12 @@ body {
 }
 
 body {
-  font: "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-family: Raleway;
   padding: 5%;
-}
-
-h1 {
-  font-size: 5vw;
-}
-
-h2 {
-  font-size: 3vw;
 }
 
 footer {
   background-color: white;
-  margin-top: 5%;
-  font-size: 1.5vw;
 }
 
 .navbar {
@@ -41,26 +31,25 @@ footer {
   width: 100%;
   height: 100%;
   padding: 0;
+  padding-bottom: 1%;
 }
 
 .index-background {
   background-image: url("/images/mauerfotos-index.jpg");
   width: 100%;
-  padding-bottom: 40%;
+  padding-bottom: 55%;
   /* height: 80%; */
   background-size: cover;
+  margin-bottom: 10%;
 }
 
-.col-left {
-  background-color: white;
-  opacity: 0.7;
-  padding: 5% 1%;
-  width: 40%;
-}
-
-.row {
-  height: 40%;
-  margin: 0;
+.black-box {
+  background-color: #d9dbdd;
+  width: 110%;
+  color: white;
+  padding: 2% 8%;
+  margin-left: -5%;
+  margin-bottom: 20%;
 }
 
 /*# sourceMappingURL=style.css.map */
