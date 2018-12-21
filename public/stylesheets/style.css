@@ -1,0 +1,66 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: "Lucida Grande", Helvetica, Arial, sans-serif;
+  padding: 5%;
+}
+
+h1 {
+  font-size: 5vw;
+}
+
+h2 {
+  font-size: 3vw;
+}
+
+footer {
+  background-color: white;
+  margin-top: 5%;
+  font-size: 1.5vw;
+}
+
+.navbar {
+  margin-bottom: 5%;
+  border-bottom: 1px solid black;
+}
+
+.navbar-nav {
+  width: 100%;
+}
+
+.nav-link {
+  margin-right: 5%;
+}
+
+.container-fluid {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+
+.index-background {
+  background-image: url("/images/mauerfotos-index.jpg");
+  width: 100%;
+  padding-bottom: 40%;
+  /* height: 80%; */
+  background-size: cover;
+}
+
+.col-left {
+  background-color: white;
+  opacity: 0.7;
+  padding: 5% 1%;
+  width: 40%;
+}
+
+.row {
+  height: 40%;
+  margin: 0;
+}
+
+/*# sourceMappingURL=style.css.map */
